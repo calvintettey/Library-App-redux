@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       books : [
         {title: "Pepperwood Chronicles", author: "Nick Miller", genre: "Action", publisher: "NG Books"},
-        {title: "Eragon", author: "Christopher Paolini", genre: "Fantasy", publisher: "Scholastic"},
+        {title: "Eragon", author: "Christopher Paolini", genre: "Fantasy", publisher: "Scholastic Publishers"},
         {title: "Throne of Fire", author: "Rick Riordan", genre: "Mythology", publisher: "Penguin Books"},
         {title: "Design of Everyday Things", author: "Don Norman", genre: "Non-Fiction", publisher: "MacMillan Books"},
       ]
