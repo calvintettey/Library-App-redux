@@ -7,7 +7,7 @@ let Book = (props) => {
             <h4>Author: {props.author} </h4>
             <p>Genre: {props.genre} </p>
             <p>Publisher: {props.publisher} </p>
-            <hr/>
+            <hr />
         </div>
     );
 }

@@ -17,7 +17,7 @@ class App extends Component {
     return (
       <div className="App">
         <AddBookForm addBook ={this.addNewBook} />
-        <Library bookInfo={this.props.books} />
+        <Library Library={this.props.books} />
       </div>
     );
   }
