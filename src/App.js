@@ -1,12 +1,10 @@
-import React, { Component, useReducer } from 'react';
+import React, { Component } from 'react';
 import { connect } from "react-redux";
 import { addBook } from "./store/libraryActions";
 import logo from './logo.svg';
 import './App.css';
 import AddBookForm from './components/AddBookForm';
 import Library from './components/Library';
-import Book from './components/Book';
-import { render } from '@testing-library/react';
 
 class App extends Component {
   

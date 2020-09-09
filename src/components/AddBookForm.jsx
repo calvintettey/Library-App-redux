@@ -44,7 +44,7 @@ class AddBookForm extends Component {
                          <label htmlFor="publisher">Publisher</label>
                          <input type="text" name="publisher" onChange={this.handleChange} />               
                     </div>
-                    <button type="submit">Submit</button>
+                    <button type="submit">Add To Library</button>
                  </form>
             </>
         );
